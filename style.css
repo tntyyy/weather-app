@@ -174,3 +174,51 @@ body {
     font-size: 24px;
 }
 /* basic setting end */
+
+@media (max-width: 1080px) and (min-width: 520px) {
+    .main {
+        flex-direction: column;
+    }
+
+    .left {
+        margin-right: 0px;
+    }
+
+    .weather {
+        margin-top: 24px;
+        padding-bottom: 64px;
+    }
+}
+
+@media (max-width: 520px) {
+    .main {
+        flex-direction: column;
+    }
+
+    .left {
+        margin-right: 0px;
+    }
+
+    .weather {
+        margin-top: 24px;
+        padding-bottom: 64px;
+    }
+
+    .text__title {
+        font-size: 24px;
+    }
+
+    .text__subtitle {
+        font-size: 18px;
+    }
+
+    .date__img {
+        width: 83px;
+        height: 90px;
+    }
+
+    .location__img {
+        width: 88px;
+        height: 100px;
+    }
+}
