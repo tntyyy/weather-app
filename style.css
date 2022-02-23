@@ -1,0 +1,176 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@600;700;800;900&display=swap');
+
+
+/* css reset */
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+
+    box-sizing: border-box;
+}
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+html {
+    height: 100%;
+}
+body {
+    line-height: 1;
+}
+ol, ul {
+    list-style: none;
+}
+blockquote, q {
+    quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content: '';
+    content: none;
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+/* css reset end */
+
+/* basic setting */
+
+body {
+    padding-top: 64px;
+    background: #eeeeee;
+    color: #fff;
+
+    font-family: 'Nunito', sans-serif;
+    font-weight: bold;
+    font-size: 48px;
+
+    max-height: 90vh;
+}
+
+.container {
+    max-width: 1420px;
+    margin: 0 auto;
+}
+
+.header {
+    width: 100%;
+    background: linear-gradient(153.79deg, rgba(212, 178, 255, 0.1) 15.14%, rgba(112, 169, 255, 0.8) 93.74%), #FFFFFF;
+    box-shadow: 0px 4px 25px rgba(0, 0, 0, 0.25);
+    border-radius: 50px;
+
+    text-align: center;
+    padding: 30px 0px;
+}
+
+.header__title {
+    color: #0099FF;
+}
+
+.main {
+    display: flex;
+    justify-content: space-between;
+
+    padding-top: 64px;
+}
+
+.left {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    margin-right: 24px;
+}
+
+.date {
+    background: linear-gradient(150.52deg, #D4B2FF 11.95%, #70A9FF 75.66%);
+    box-shadow: 0px 4px 25px rgba(0, 0, 0, 0.25);
+    border-radius: 50px;
+
+    padding: 82px 215px 82px 64px;
+
+    display: flex;
+    /* justify-content: space-between; */
+    align-items: center;
+
+    margin-bottom: 24px;
+}
+
+.location {
+    background: linear-gradient(153.79deg, rgba(212, 178, 255, 0.05) 15.14%, rgba(112, 169, 255, 0.4) 93.74%);
+    box-shadow: 0px 4px 25px rgba(0, 0, 0, 0.25);
+    border-radius: 50px;
+
+    padding: 82px 215px 82px 64px;
+
+    display: flex;
+    /* justify-content: space-between; */
+    align-items: center;
+    color:#0077C0;
+
+}
+
+.text {
+    margin-left: 48px;
+}
+
+.location__text {
+    margin-left: 24px;
+}
+
+.location__text .text__subtitle {
+    margin-top: 16px;
+    font-size: 16px;
+}
+
+.text__title {
+    font-weight: 900;
+}
+
+.text__subtitle {
+    font-size: 24px;
+}
+
+.weather {
+    background: linear-gradient(149.52deg, #4C74FF 15.32%, #70A9FF 51.92%, #E4F9FF 87.77%);
+    box-shadow: 0px 4px 25px rgba(0, 0, 0, 0.25);
+    border-radius: 50px;
+    width: 100%;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    padding-top: 64px;
+}
+
+.weather__title {
+    margin-top: 24px;
+    margin-bottom: 8px;
+    font-weight: 900;
+    font-size: 96px;
+}
+
+.weather__subtitle {
+    font-size: 24px;
+}
+/* basic setting end */
