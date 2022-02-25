@@ -60,7 +60,7 @@ let addCity = getGeoposition().then(res => {
     getWeather(latitude, longitude).then(data => {
         currentWeather = (data.main.temp - 273).toFixed(0);
         weatherDeg.textContent = `${currentWeather}°С`;
-        weatherIcon.innerHTML = `<img src="img/${data.weather[0].main}.png" alt="weather" class="weather-icon">`;
+        weatherIcon.innerHTML = `<img src="./img/${data.weather[0].main}.png" alt="weather" class="weather-icon">`;
         weatherDesc.textContent = data.weather[0].description;
     });
 });
